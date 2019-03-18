@@ -1,0 +1,92 @@
+header
+{
+    height: 160px;
+}
+
+h1 {
+    height: 130px;
+    margin: 0px;
+    font-size: 4em; 
+}
+
+nav, footer 
+{
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul 
+{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li
+{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a
+{
+    color: #ffffff;
+}
+section.courses 
+{
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+article 
+{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup 
+{
+    margin-top: 40px;
+}
+figure 
+{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid #eeeeee;
+}
+figcaption 
+{
+    text-align: left;
+}
+img 
+{
+    width: 290px;
+    height:190px;
+}
+aside 
+{
+    width: 230px;
+float: right;
+padding: 0px 0px 0px 20px;
+}
+
+aside section a {display: block;
+padding: 10px;
+border-bottom: 1px solid #eeeeee;}
+
+a {color: #de6581;
+text-decoration: none;}
+
+h1, h2, h3 {font-weight: normal;}
+
+h2 {margin: 10px 0px 5px 0px;
+padding: 0px;}
+
+h3 {margin: 0px 0px 10px 0px;
+color: #de6581;}
+
+footer {padding: 7px 0px 0px 20px;}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            function event1() {
+                document.getElementById("demo").innerHTML = "double click ";
+            }
+            function event2() {
+                document.getElementById("demo").innerHTML = "one click";
+            }
+        </script>
+    </head>
+    <body>
+        
+        <button  type="button" onclick="event1()"> click me ones</button>
+        <button  type="button" ondblclick="event2()" > click me twice</button>
+        <p id="demo"></p>
+        
+    </body>
+</html>

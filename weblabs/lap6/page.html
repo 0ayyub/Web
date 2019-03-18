@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            function ondblclick() {
+                document.getElementById("demo").innerHTML = "double click ";
+            }
+            function onclick() {
+                document.getElementById("demo").innerHTML = "one click";
+            }
+            function mouseover() {
+                
+                document.getElementById("demo2").style.color="red";
+            }
+            function mouseout() {
+                
+                document.getElementById("demo2").style.color="black";
+            }
+        </script>
+    </head>
+    <body>
+        
+        <button  type="button" onclick="onclick()"> click me ones</button>
+        <button  type="button" ondblclick="ondblclick()" > click me twice</button>
+        <p id="demo2" onmouseout="mouseout()" onmouseover="mouseover()"> come over me </p><br>
+        <p id="demo"></p>
+        
+    </body>
+</html>
