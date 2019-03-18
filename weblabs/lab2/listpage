@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title> list page </title>
+	</head>
+	<body>
+		<h1> My favorate website</h1>
+		<ul> 
+			<li><a href= "https://www.google.com" target = _blank>Google </a> </li>
+			<li> Social Media 
+				<ul> 
+					<li><a href= "https://www.facebook.com"target = _blank>facebook </a></li>
+					<li><a href= "https://www.twitter.com"target = _top> twitter</a> </li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
