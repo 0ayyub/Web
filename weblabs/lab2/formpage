@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<h1>please leave your feedback in the form below</h1>
+	<p>we'd love to hear from you!</p>
+	<form>
+		<p>First Name:  <input type = "text" name = "First Name:"  > </p>
+		<p>Last Name:<input type  = "text" name = "Last Name:" ></p>
+		<p>Emai:<input type = "Emai" name = "Emai:" placeholder = name@domain.com >  </p>
+		<p>How would you rate the website? <br> 0 <input  type= "range"  min = 0 max=10 >10 </p>
+		Comments: <textarea>  </textarea>
+		<p> 
+		<button type = "submit"  value = "submit"   > Submit </button>  
+		<button type = "clear"  value = "clear"   > Clear </button> 
+		</p>
+	</form>
+
+
+</body>
+</html>
